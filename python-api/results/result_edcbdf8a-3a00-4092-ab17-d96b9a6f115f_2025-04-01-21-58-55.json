@@ -1,0 +1,18 @@
+{
+  "content": [
+    {
+      "text": "{\n  \"document_type\": \"Purchase Order\",\n  \"document_number\": \"12376510\",\n  \"date\": \"2025-01-27\",\n  \"vendor_information\": {\n    \"name\": \"JAMES HARDIE BLDG PRODUCTS\",\n    \"address\": \"DEPT 7151, LOS ANGELES CA 90088-7151\",\n    \"phone\": \"888/888-3408\",\n    \"fax\": \"800/968-7040\"\n  },\n  \"customer_information\": {\n    \"name\": \"ABC SUPPLY 617\",\n    \"address\": \"5745 N WASHINGTON ST, DENVER CO 80216-1333\",\n    \"phone\": \"303/295-1372\",\n    \"fax\": \"303/295-0035\"\n  },\n  \"amounts\": {\n    \"subtotal\": 30288.00,\n    \"tax\": 0.00,\n    \"total\": 30288.00\n  },\n  \"line_items\": [\n    {\n      \"item_number\": \"25H5PC0\",\n      \"quantity\": 200,\n      \"unit_measure\": \"PC\",\n      \"description\": \"HZ5 PANEL CM 4X10 PRIMED\",\n      \"unit_cost\": 50.240,\n      \"amount\": 10048.00\n    },\n    {\n      \"item_number\": \"25H5PC0AW\",\n      \"quantity\": 200,\n      \"unit_measure\": \"PC\",\n      \"description\": \"HZ5 PANEL CM 4X10 ARCTIC WHITE\",\n      \"unit_cost\": 66.040,\n      \"amount\": 13208.00\n    },\n    {\n      \"item_number\": \"25H5PC0GS\",\n      \"quantity\": 100,\n      \"unit_measure\": \"PC\",\n      \"description\": \"HZ5 PANEL CM 4X10 GRAY SLATE\",\n      \"unit_cost\": 70.320,\n      \"amount\": 7032.00\n    }\n  ],\n  \"payment_information\": {\n    \"method\": \"EMAIL\"\n  },\n  \"shipping_information\": {\n    \"ship_to\": \"ABC #617 DENVER, 5745 N WASHINGTON ST, DENVER CO 80216\"\n  },\n  \"additional_references\": {\n    \"vpn\": \"617952 CEDARMILL\",\n    \"buyer\": \"Robert Aguilar\",\n    \"branch_whse\": \"617\",\n    \"vendor_code\": \"20039\",\n    \"office_copy\": \"OFFICE COPY\",\n    \"email_address\": \"WESTCS@JAMESHARDIE.COM\"\n  },\n  \"taxes_and_fees\": {\n    \"tax\": 0.00,\n    \"freight\": 0.00\n  },\n  \"confidence\": {\n    \"document_type\": 1.0,\n    \"document_number\": 1.0,\n    \"date\": 1.0,\n    \"vendor_information\": {\n      \"name\": 1.0,\n      \"address\": 0.95,\n      \"phone\": 0.95,\n      \"fax\": 0.95\n    },\n    \"customer_information\": {\n      \"name\": 1.0,\n      \"address\": 0.95,\n      \"phone\": 0.95,\n      \"fax\": 0.95\n    },\n    \"amounts\": {\n      \"subtotal\": 1.0,\n      \"tax\": 1.0,\n      \"total\": 1.0\n    },\n    \"line_items\": [\n      {\n        \"item_number\": 1.0,\n        \"quantity\": 1.0,\n        \"unit_measure\": 1.0,\n        \"description\": 1.0,\n        \"unit_cost\": 1.0,\n        \"amount\": 1.0\n      },\n      {\n        \"item_number\": 1.0,\n        \"quantity\": 1.0,\n        \"unit_measure\": 1.0,\n        \"description\": 1.0,\n        \"unit_cost\": 1.0,\n        \"amount\": 1.0\n      },\n      {\n        \"item_number\": 1.0,\n        \"quantity\": 1.0,\n        \"unit_measure\": 1.0,\n        \"description\": 1.0,\n        \"unit_cost\": 1.0,\n        \"amount\": 1.0\n      }\n    ],\n    \"payment_information\": {\n      \"method\": 1.0\n    },\n    \"shipping_information\": {\n      \"ship_to\": 0.95\n    },\n    \"additional_references\": {\n      \"vpn\": 1.0,\n      \"buyer\": 1.0,\n      \"branch_whse\": 1.0,\n      \"vendor_code\": 1.0,\n      \"office_copy\": 1.0,\n      \"email_address\": 1.0\n    },\n    \"taxes_and_fees\": {\n      \"tax\": 1.0,\n      \"freight\": 1.0\n    }\n  }\n}",
+      "type": "text"
+    }
+  ],
+  "id": "msg_bdrk_01LFqnM2ZLwTMWEXNLLMEAYe",
+  "model": "claude-3-5-sonnet-20240620",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "input_tokens": 2187,
+    "output_tokens": 1247
+  }
+}

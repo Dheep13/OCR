@@ -1,0 +1,8 @@
+applications:
+- name: document-extractor-api
+  memory: 512M
+  buildpack: python_buildpack
+  command: gunicorn app:app --bind 0.0.0.0:$PORT --timeout 240
+  env:
+    FLASK_ENV: production
+    ALLOWED_ORIGINS: "http://localhost:5000,http://localhost:3000,http://127.0.0.1:5000,https://document-extractor-api.cfapps.eu10-005.hana.ondemand.com"
